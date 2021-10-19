@@ -61,7 +61,15 @@ img{
  #lucky{
     position: fixed;
     left: 52%;
-} 
+}
+
+#search-btn:hover{
+    background-color: rgb(50, 44, 82);
+}
+
+#lucky:hover{
+    background-color: rgb(50, 44, 82);
+}
 
 button{
     cursor : pointer;
