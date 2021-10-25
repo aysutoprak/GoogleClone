@@ -5,25 +5,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
     <div class="fullscreen">
-      <div>
-        <img id="logo" src="google_logo.png" alt="Google Logo" />
+      <!-- Header Starts -->
+      <div class="header">
+        <a href="">Gmail</a>
+        <a href="">Images</a>
+        <span class="material-icons header_apps"> apps </span>
+        <span class="material-icons"> account_circle </span>
       </div>
-          <div class="search_border">
-              <input type="text" id="search" name="search"/>
-          </div> 
-      <div class="btn-group">
-            <button id="search-btn">Search</button>
-            <button id="lucky">I'm Feeling Lucky</button>
-      </div> 
+      <!-- Logo Section Starts -->
+      <div class="mainBody">
+        <div>
+          <img id="logo" src="google_logo.png" alt="Google Logo" />
+        </div>
+
+        <!-- Search Section Starts -->
+
+        <div class="search">
+          <div class="search-input">
+            <span class="material-icons"> search </span>
+            <input type="text" />
+            <span class="material-icons"> keyboard_voice </span>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+
+        <div class="btn-group">
+          <button id="search-btn">Search</button>
+          <button id="lucky">I'm Feeling Lucky</button>
+        </div>
+      </div>
     </div>
+    <!-- Dark Mode Button -->
+
     <div class="bottom">
-        <button onclick="darkMode()" class ="drkbtn" id="dark">Dark Mode</button>
+      <button onclick="darkMode()" class="drkbtn" id="dark">Dark Mode</button>
     </div>
+
+    <!-- Footer Starts -->
+
+    <nav>
+      <ul class="footer">
+        <li class="footerli">
+          <a
+            href="https://www.google.com/intl/en_tr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            >Advertising</a
+          >
+        </li>
+        <li class="footerli">
+          <a
+            href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+            >Business</a
+          >
+        </li>
+        <li class="footerli">
+          <a
+            href="https://about.google/?utm_source=google-TR&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+            >About</a
+          >
+        </li>
+        <li class="footerli">
+          <a href="https://google.com/search/howsearchworks/?fg=1"
+            >How Search works</a
+          >
+        </li>
+
+        <li class="footerli" style="float: right; margin-right: 35px">
+          <a href="https://www.google.com/preferences?hl=en">Settings</a>
+        </li>
+
+        <li class="footerli" style="float: right">
+          <a href="https://policies.google.com/terms?hl=en-TR&fg=1">Terms</a>
+        </li>
+
+        <li class="footerli" style="float: right">
+          <a href="https://policies.google.com/privacy?hl=en-TR&fg=1"
+            >Privacy</a
+          >
+        </li>
+      </ul>
+    </nav>
     <script src="script.js"></script>
   </body>
-  
 </html>
